@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: roboto;
+  font-size: 20px;
+  background: rgb(63, 223, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 223, 255, 1) 0%,
+    rgba(173, 173, 173, 1) 33%,
+    rgba(171, 171, 171, 1) 66%,
+    rgba(63, 223, 255, 1) 100%
+  );
+}
+#calculator {
+  background: #ababab;
+  height: 352px;
+  width: 242px;
+  border: 2px solid #000;
+  border-radius: 25px;
+  box-shadow: 3px 3px #757575;
+}
+#display {
+  background: #fff;
+  width: 230px;
+  height: 50px;
+  margin: 20px 0px 20px 6px;
+  position: relative;
+  font-size: 30px;
+  border-radius: 5px;
+}
+#displayArea {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#displayNumber {
+  width: 200px;
+  text-align: right;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px;
+  grid-template-rows: 40px 40px 40px 40px 40px 40px;
+  margin-left: 1px;
+}
+.button {
+  background: #e6e6e6;
+  margin: 1px 1px 1px 1px;
+  text-align: center;
+}
+.button:hover {
+  background: #d6d6d6;
+}
+.operator {
+  background: #abceff;
+}
+.operator:hover {
+  background: #8abbff;
+}
